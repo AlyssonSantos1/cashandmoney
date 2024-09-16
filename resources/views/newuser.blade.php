@@ -7,7 +7,7 @@
     <title>New Client</title>
 </head>
 <body>
-    <form action="{ route('new.user.php') }" method="POST">
+    <form action="{ route('new-user.php') }" method="POST">
     @csrf
     <label for="">New register</label>
     <input type="text" placeholder="Client name" name="client_name">
@@ -16,7 +16,7 @@
     <input type="number" placeholder="ValueofDeposit" name="deposit_value">
     <br> <br>
     
-    <button>Send</button>
+   
 
 </form>
 

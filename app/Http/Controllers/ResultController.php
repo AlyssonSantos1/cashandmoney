@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ResultController extends Controller
 {
-    public function create(Request $information, float $accountbalance) {
+    public function create(Request $information) {
         Request::create([
             'name' => $information->name_client,
             'accountbalance' =>$accountbalance->account_balance

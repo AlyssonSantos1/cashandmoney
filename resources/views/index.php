@@ -17,7 +17,7 @@
     <input type="number" placeholder="ValueofDeposit" name="deposit_value">
     <br> <br>
     
-    <button>Send</button>
+    
 
 </form>
 
