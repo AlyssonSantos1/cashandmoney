@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/new-user', [ResultController::class, 'newuser'])->name('newuser');
+Route::post('/new-user', [ResultController::class, 'newuser'])->name('newclient');
 
 Route::get('/new-user', [ResultController::class, 'createdsucessfull']);
 

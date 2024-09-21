@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form action="new-client" method="POST">
+    <form action="newuser" method="POST">
     @csrf
     <label for="">New register</label>
     <input type="text" placeholder="Client name" name="client_name">

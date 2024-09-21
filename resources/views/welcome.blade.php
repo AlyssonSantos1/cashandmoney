@@ -30,7 +30,7 @@
     </style>
 
     
-    <form action="newuser.php" method="POST">
+    <form action="newuser.php" method="GET">
 
         
         <label for="">Option1</label>
@@ -40,9 +40,9 @@
         <input class="input" type="submit" name="submit" value="Deposit">
         <br><br><br>
 
-        <button type="submit">Send</button>
-
-
+      
+        
+        
 
     </form>
     
