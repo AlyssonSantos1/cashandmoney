@@ -30,7 +30,7 @@
     </style>
 
     
-    <form action="newuser.php" method="GET">
+    <!-- <form action=" {{route ('newclient')}}" method="GET">
 
         
         <label for="">Option1</label>
@@ -44,7 +44,26 @@
         
         
 
-    </form>
+    </form> -->
+
+    <label for="">Option1</label>
+
+    <a href="{{route('withdraw')}}">
+        withdraw
+
+    </a>
+
+    <br><br><br>
+
+    <label for="">Option2</label>
+
+    <a href="{{route('savings')}}">
+        savings
+    </a>
+
+
+
+
     
     
 </body>
